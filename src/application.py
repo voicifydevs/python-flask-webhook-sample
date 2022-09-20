@@ -13,8 +13,6 @@ def do_initial_setup():
    
    print("Doing initial setup things")
 
-# TODO: setup swagger
-
 #register routes
 @app.route("/")
 def index():
